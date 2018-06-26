@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>adapter</OriginalElement>
+  <nodes>
+    <node x="194.25" y="83.0">adapter.AndroidPhoneTarget</node>
+    <node x="31.25" y="83.0">adapter.AndroidAdapter</node>
+    <node x="0.0" y="0.0">adapter.AC220Adaptee</node>
+    <node x="131.0" y="166.0">adapter.AdapterMain</node>
+    <node x="191.5" y="0.0">adapter.PhoneTarget</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="adapter.AndroidAdapter" target="adapter.AC220Adaptee">
+      <point x="-35.75" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="adapter.AdapterMain" target="adapter.AndroidPhoneTarget">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="adapter.AndroidPhoneTarget" target="adapter.PhoneTarget">
+      <point x="0.0" y="-16.5" />
+      <point x="30.25" y="16.5" />
+    </edge>
+    <edge source="adapter.AndroidAdapter" target="adapter.PhoneTarget">
+      <point x="35.75" y="-16.5" />
+      <point x="138.5" y="58.0" />
+      <point x="221.75" y="58.0" />
+      <point x="-30.25" y="16.5" />
+    </edge>
+    <edge source="adapter.AdapterMain" target="adapter.AndroidAdapter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="185.5" y="136.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

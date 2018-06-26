@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>facade</OriginalElement>
+  <nodes>
+    <node x="-68.0" y="-49.0">facade.ClassB</node>
+    <node x="-295.0" y="-59.0">facade.ClassC</node>
+    <node x="-178.0" y="-128.0">facade.ClassA</node>
+    <node x="-175.0" y="136.0">facade.Client0</node>
+    <node x="41.0" y="136.0">facade.Facade</node>
+    <node x="44.0" y="217.0">facade.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="facade.Facade" target="facade.ClassA">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="facade.ClassC" target="facade.ClassA">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="facade.Client0" target="facade.ClassC">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="facade.Client" target="facade.Facade">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="facade.Client0" target="facade.ClassA">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="facade.Client0" target="facade.ClassB">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="facade.Facade" target="facade.ClassC">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="facade.Facade" target="facade.ClassB">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="101.5" y="94.5" />
+  <SelectedNodes>
+    <node>facade.ClassB</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
